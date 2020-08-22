@@ -1,0 +1,279 @@
+/*BEGIN Xbox 360 Controller Styling*/
+.controller.xbox-pink {
+    background: url(https://raw.githubusercontent.com/G-F-D/gamepadviewer-xbox-pink/master/bg.png);
+    height: 544px;
+    width: 668px;
+    /*    margin-left: -332px;
+        margin-top: -228px;*/
+}
+
+.xbox-pink.disconnected {
+    background: url(xbox-assets-old/bg-disconnect.png);
+}
+
+.xbox-pink.disconnected div {
+    display: none;
+}
+
+.xbox-pink .triggers {
+    width: 430px;
+    height: 76px;
+    position: absolute;
+    left: 119px;
+}
+
+.xbox-pink .trigger {
+    width: 33px;
+    height: 76px;
+    background: url(xbox-assets-old/trigger.png);
+    opacity: 0;
+}
+
+.xbox-pink .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox-pink .trigger.right {
+    float: right;
+    background-position: 0 -77px;
+}
+
+.xbox-pink .bumper {
+    width: 119px;
+    height: 44px;
+    background: url(xbox-assets-old/bumper.png);
+    opacity: 0;
+}
+
+.xbox-pink .bumpers {
+    position: absolute;
+    width: 516px;
+    height: 44px;
+    left: 76px;
+    top: 84px;
+}
+
+.xbox-pink .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox-pink .bumper.left {
+    float: left;
+}
+
+.xbox-pink .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.xbox-pink .quadrant {
+    position: absolute;
+    background: url(xbox-assets-old/quadrant.png);
+    height: 100px;
+    width: 100px;
+    top: 165px;
+    left: 284px;
+    z-index: -1;
+}
+
+.xbox-pink .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox-pink .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox-pink .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox-pink .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.xbox-pink .arrows {
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    top: 200px;
+    left: 244px;
+}
+
+.xbox-pink .back, .xbox-pink .start {
+    background: url(xbox-assets-old/arrow.png);
+    width: 34px;
+    height: 29px;
+}
+
+.xbox-pink .back.pressed, .xbox-pink .start.pressed {
+    background-position: 0 -30px;
+}
+
+.xbox-pink .back {
+    float: left;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.xbox-pink .start {
+    float: right;
+}
+
+.xbox-pink .abxy {
+    position: absolute;
+    width: 161px;
+    height: 160px;
+    top: 125px;
+    left: 451px
+}
+
+.xbox-pink .button {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+}
+
+.xbox-pink .button.a {
+    width: 53px;
+    height: 53px;
+}
+
+.xbox-pink .button.y {
+    width: 55px;
+    height: 54px;
+}
+
+.xbox-pink .button.pressed {
+    background-position: 0 -55px;
+    margin-top: 6px;
+    opacity: 1;
+}
+
+.xbox-pink .button.pressed.a {
+    background-position: 0 -54px;
+}
+
+.xbox-pink .button.pressed.y {
+    background-position: 0 -56px;
+}
+
+.xbox-pink .a {
+    background: url(xbox-assets-old/a.png);
+    top: 108px;
+    left: 55px;
+}
+
+.xbox-pink .b {
+    background: url(xbox-assets-old/b.png);
+    top: 54px;
+    right: 0px;
+}
+
+.xbox-pink .x {
+    background: url(xbox-assets-old/x.png);
+    top: 54px;
+}
+
+.xbox-pink .y {
+    background: url(xbox-assets-old/y.png);
+    left: 54px;
+}
+
+.xbox-pink .sticks {
+    position: absolute;
+    width: 383px;
+    height: 208px;
+    top: 167px;
+    left: 89px;
+}
+
+.xbox-pink .stick {
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/G-F-D/gamepadviewer-xbox-pink/master/stick.png);
+    height: 86px;
+    width: 86px;
+}
+
+.xbox-pink .stick.pressed {
+    background-position: 0 -87px;
+}
+
+.xbox-pink .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox-pink .stick.right {
+    top: calc(100% - 86px);
+    left: calc(100% - 86px);
+}
+
+.xbox-pink .dpad {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    top: 273px;
+    left: 174px;
+}
+
+.xbox-pink .face {
+    position: absolute;
+    font-size: 30px;
+    line-height: 0;
+    color: white;
+    opacity: 0;
+    font-family: 'FontAwesome';
+}
+
+.xbox-pink .face.pressed {
+    opacity: 1;
+}
+
+.xbox-pink .face.up {
+    left: 42px;
+    top: 20px;
+}
+
+.xbox-pink .face.up:after {
+    content: "\f062";
+}
+
+.xbox-pink .face.down {
+    left: 42px;
+    bottom: 20px;
+}
+
+.xbox-pink .face.down:after {
+    content: "\f063";
+}
+
+.xbox-pink .face.left {
+    top: 56px;
+    left: 3px;
+}
+
+.xbox-pink .face.left:after {
+    content: "\f060";
+}
+
+.xbox-pink .face.right {
+    top: 56px;
+    right: 3px;
+}
+
+.xbox-pink .face.right:after {
+    content: "\f061";
+}
+
+.xbox-pink.half {
+    margin-top: -272px;
+}
+
+/*END Xbox 360 Controller Styling*/
