@@ -1,5 +1,5 @@
 /*BEGIN Xbox 360 Controller Styling*/
-.controller.xbox-pink {
+.controller.custom {
     background: url(https://raw.githubusercontent.com/G-F-D/gamepadviewer-xbox-pink/master/bg.png);
     height: 544px;
     width: 668px;
@@ -7,46 +7,46 @@
         margin-top: -228px;*/
 }
 
-.xbox-pink.disconnected {
+.custom.disconnected {
     background: url(xbox-assets-old/bg-disconnect.png);
 }
 
-.xbox-pink.disconnected div {
+.custom.disconnected div {
     display: none;
 }
 
-.xbox-pink .triggers {
+.custom .triggers {
     width: 430px;
     height: 76px;
     position: absolute;
     left: 119px;
 }
 
-.xbox-pink .trigger {
+.custom .trigger {
     width: 33px;
     height: 76px;
     background: url(xbox-assets-old/trigger.png);
     opacity: 0;
 }
 
-.xbox-pink .trigger.left {
+.custom .trigger.left {
     float: left;
     background-position: 0 0;
 }
 
-.xbox-pink .trigger.right {
+.custom .trigger.right {
     float: right;
     background-position: 0 -77px;
 }
 
-.xbox-pink .bumper {
+.custom .bumper {
     width: 119px;
     height: 44px;
     background: url(xbox-assets-old/bumper.png);
     opacity: 0;
 }
 
-.xbox-pink .bumpers {
+.custom .bumpers {
     position: absolute;
     width: 516px;
     height: 44px;
@@ -54,21 +54,21 @@
     top: 84px;
 }
 
-.xbox-pink .bumper.pressed {
+.custom .bumper.pressed {
     opacity: 1;
 }
 
-.xbox-pink .bumper.left {
+.custom .bumper.left {
     float: left;
 }
 
-.xbox-pink .bumper.right {
+.custom .bumper.right {
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.xbox-pink .quadrant {
+.custom .quadrant {
     position: absolute;
     background: url(xbox-assets-old/quadrant.png);
     height: 100px;
@@ -78,27 +78,27 @@
     z-index: -1;
 }
 
-.xbox-pink .p0 {
+.custom .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
-.xbox-pink .p1 {
+.custom .p1 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.xbox-pink .p2 {
+.custom .p2 {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
-.xbox-pink .p3 {
+.custom .p3 {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-.xbox-pink .arrows {
+.custom .arrows {
     position: absolute;
     width: 180px;
     height: 29px;
@@ -106,27 +106,27 @@
     left: 244px;
 }
 
-.xbox-pink .back, .xbox-pink .start {
+.custom .back, .custom .start {
     background: url(xbox-assets-old/arrow.png);
     width: 34px;
     height: 29px;
 }
 
-.xbox-pink .back.pressed, .xbox-pink .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     background-position: 0 -30px;
 }
 
-.xbox-pink .back {
+.custom .back {
     float: left;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.xbox-pink .start {
+.custom .start {
     float: right;
 }
 
-.xbox-pink .abxy {
+.custom .abxy {
     position: absolute;
     width: 161px;
     height: 160px;
@@ -134,59 +134,59 @@
     left: 451px
 }
 
-.xbox-pink .button {
+.custom .button {
     position: absolute;
     width: 54px;
     height: 54px;
 }
 
-.xbox-pink .button.a {
+.custom .button.a {
     width: 53px;
     height: 53px;
 }
 
-.xbox-pink .button.y {
+.custom .button.y {
     width: 55px;
     height: 54px;
 }
 
-.xbox-pink .button.pressed {
+.custom .button.pressed {
     background-position: 0 -55px;
     margin-top: 6px;
     opacity: 1;
 }
 
-.xbox-pink .button.pressed.a {
+.custom .button.pressed.a {
     background-position: 0 -54px;
 }
 
-.xbox-pink .button.pressed.y {
+.custom .button.pressed.y {
     background-position: 0 -56px;
 }
 
-.xbox-pink .a {
+.custom .a {
     background: url(xbox-assets-old/a.png);
     top: 108px;
     left: 55px;
 }
 
-.xbox-pink .b {
+.custom .b {
     background: url(xbox-assets-old/b.png);
     top: 54px;
     right: 0px;
 }
 
-.xbox-pink .x {
+.custom .x {
     background: url(xbox-assets-old/x.png);
     top: 54px;
 }
 
-.xbox-pink .y {
+.custom .y {
     background: url(xbox-assets-old/y.png);
     left: 54px;
 }
 
-.xbox-pink .sticks {
+.custom .sticks {
     position: absolute;
     width: 383px;
     height: 208px;
@@ -194,28 +194,28 @@
     left: 89px;
 }
 
-.xbox-pink .stick {
+.custom .stick {
     position: absolute;
     background: url(https://raw.githubusercontent.com/G-F-D/gamepadviewer-xbox-pink/master/stick.png);
     height: 86px;
     width: 86px;
 }
 
-.xbox-pink .stick.pressed {
+.custom .stick.pressed {
     background-position: 0 -87px;
 }
 
-.xbox-pink .stick.left {
+.custom .stick.left {
     top: 0;
     left: 0;
 }
 
-.xbox-pink .stick.right {
+.custom .stick.right {
     top: calc(100% - 86px);
     left: calc(100% - 86px);
 }
 
-.xbox-pink .dpad {
+.custom .dpad {
     position: absolute;
     width: 112px;
     height: 112px;
@@ -223,7 +223,7 @@
     left: 174px;
 }
 
-.xbox-pink .face {
+.custom .face {
     position: absolute;
     font-size: 30px;
     line-height: 0;
@@ -232,47 +232,47 @@
     font-family: 'FontAwesome';
 }
 
-.xbox-pink .face.pressed {
+.custom .face.pressed {
     opacity: 1;
 }
 
-.xbox-pink .face.up {
+.custom .face.up {
     left: 42px;
     top: 20px;
 }
 
-.xbox-pink .face.up:after {
+.custom .face.up:after {
     content: "\f062";
 }
 
-.xbox-pink .face.down {
+.custom .face.down {
     left: 42px;
     bottom: 20px;
 }
 
-.xbox-pink .face.down:after {
+.custom .face.down:after {
     content: "\f063";
 }
 
-.xbox-pink .face.left {
+.custom .face.left {
     top: 56px;
     left: 3px;
 }
 
-.xbox-pink .face.left:after {
+.custom .face.left:after {
     content: "\f060";
 }
 
-.xbox-pink .face.right {
+.custom .face.right {
     top: 56px;
     right: 3px;
 }
 
-.xbox-pink .face.right:after {
+.custom .face.right:after {
     content: "\f061";
 }
 
-.xbox-pink.half {
+.custom.half {
     margin-top: -272px;
 }
 
